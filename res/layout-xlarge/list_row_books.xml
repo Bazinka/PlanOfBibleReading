@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layoutMain"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2c3342"
+    android:orientation="vertical" >
+
+    <com.example.planOfBibleReading.widgets.StyledButtonView
+        android:id="@+id/buttonList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Выбрать"
+        android:textSize="22sp" />
+
+    <ListView
+        android:id="@+id/alert_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    </ListView>
+
+</LinearLayout>

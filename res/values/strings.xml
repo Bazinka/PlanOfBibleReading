@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <string name="app_name">Библия на каждый день</string>
+    <string name="action_settings">Настройки</string>
+    <string name="bible">Открыть Библию</string>
+    <string name="openPlanReading">Открыть весь план</string>
+    <string name="title_activity_books_list">Книги Библии</string>
+    <string name="translate">Выберите перевод Библии:</string>
+    <string name="books">Выберите книгу Библии:</string>
+    <string name="title_activity_translates_list">Переводы Библии</string>
+    <string name="title_activity_chapter">Библия на каждый день</string>
+    <string name="planReadingOnDay">Спланировать чтение Библии на день</string>
+    <string name="planReadingOnPeriod">Спланировать чтение Библии на период</string>
+    <string name="title_activity_new_plan_on_day">Новая запись плана чтения</string>
+    <string name="DateBegin">Дата начала чтения:</string>
+    <string name="DateEnd">Дата окончания чтения:</string>
+    <string name="savePlan">Сохранить</string>
+    <string name="title_activity_new_plan_on_period">Библия на каждый день</string>
+    <string name="RadioAllBible">Читать всю Библию</string>
+    <string name="RadioSelectBible">Выбрать книги для чтения</string>
+    <string name="NextChapter">Следующая глава</string>
+    <string name="CancelToMain">На главную</string>
+    <string name="CancelToListBooks">Вернуться к списку книг</string>
+    <string name="DeleteRow">Удалить элементы</string>
+    <string name="title_activity_settings">Библия на каждый день</string>
+    <string name="saveText">Сохранить настройки</string>
+    <string name="title_activity_bible">Библия</string>
+    <string name="title_activity_on_every_day">на каждый день</string>
+    <string name="title_activity_bible_on_every_day ">Библия на каждый день</string>
+    <string name="BibleOnEveryDay">Библия на каждый день</string>
+
+    
+
+    <string-array name="CreatePlanItems">
+        <item>Собственный план на 1 день</item>
+        <item>Собственный план на период</item>
+        <item>Воспользоваться существующими планами</item>
+    </string-array>
+
+    <string name="title_activity_list_plan_of_reading">ListPlanOfReadingActivity</string>
+    <string name="deleteTitle">Удаление элемента</string>
+    <string name="deleteQues">Удалить элемент?</string>
+    <string name="deletePlan">Удалить планы чтения</string>
+    <string name="planName">Введите названия плана</string>
+    <string name="planDoesNotExist">На данный момент план не выбран</string>
+    <string name="addPlan">Добавить план чтения Библии</string>
+    <string name="title_activity_new_univers_plan">NewUniversPlanActivity</string>
+    <string name="changeDate">Изменить дату</string>
+    <string name="ListTitle">Выберите, что читать:</string>
+    <string name="DateOfReading">Когда читать:</string>
+    <string name="Settings">Настройки</string>
+    <string name="radioStandartStyle">Стандартное оформление</string>
+    <string name="radioLavandaStyle">Лавандавый стиль оформления</string>
+    <string name="radioOldBibleStyle">Старославянский стиль оформления</string>
+    <string name="TitleWindowPlanOnOneDay">Создание плана на конкретную дату</string>
+    <string name="TitleWindowPlanOnPeriod">Создание плана на определенный период</string>
+    <string name="SelectBooks">Выбрать книги для чтения</string>
+
+</resources>

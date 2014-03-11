@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layoutMain"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp" >
+
+    <com.example.planOfBibleReading.widgets.StyledTitleView
+        android:id="@+id/tvTitleWindow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:text="@string/TitleWindowPlanOnOneDay"
+        android:textSize="16sp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="horizontal" >
+
+        <com.example.planOfBibleReading.widgets.StyledTitleView
+            android:id="@+id/tvTitleDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/DateBegin"
+            android:textSize="14sp" />
+
+        <com.example.planOfBibleReading.widgets.StyledTextView
+            android:id="@+id/etDateReading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:textSize="14sp" />
+
+        <com.example.planOfBibleReading.widgets.StyledButtonView
+            android:id="@+id/btnChangeDateReading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/changeDate"
+            android:textSize="14sp" >
+        </com.example.planOfBibleReading.widgets.StyledButtonView>
+    </LinearLayout>
+
+    <com.example.planOfBibleReading.widgets.StyledTitleView
+        android:id="@+id/tvListTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="25dp"
+        android:text="@string/ListTitle"
+        android:textSize="14sp" />
+
+    <ListView
+        android:id="@+id/lvItems"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    </ListView>
+
+    <com.example.planOfBibleReading.widgets.StyledButtonView
+        android:id="@+id/btnSavePlan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/savePlan"
+        android:textSize="14sp" >
+    </com.example.planOfBibleReading.widgets.StyledButtonView>
+
+</LinearLayout>

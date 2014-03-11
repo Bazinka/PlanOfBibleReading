@@ -1,0 +1,47 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layoutMain"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp" >
+
+    <com.example.planOfBibleReading.widgets.StyledTextView
+        android:id="@+id/tvTranslate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="zsdhdfh"
+        android:textSize="14sp" >
+    </com.example.planOfBibleReading.widgets.StyledTextView>
+
+    <com.example.planOfBibleReading.widgets.StyledButtonView
+        android:id="@+id/btnTranslate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="14sp" >
+    </com.example.planOfBibleReading.widgets.StyledButtonView>
+
+    <com.example.planOfBibleReading.widgets.StyledTitleView
+        android:id="@+id/tvListTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="25dp"
+        android:text="@string/ListTitle"
+        android:textSize="14sp" />
+
+    <ListView
+        android:id="@+id/lvItems"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    </ListView>
+
+    <com.example.planOfBibleReading.widgets.StyledButtonView
+        android:id="@+id/btnSave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/saveText"
+        android:textSize="16sp" >
+    </com.example.planOfBibleReading.widgets.StyledButtonView>
+
+</LinearLayout>

@@ -1,0 +1,60 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layoutMain"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp" >
+
+    <com.example.planOfBibleReading.widgets.StyledTextView
+        android:id="@+id/tvPlan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="12sp" >
+    </com.example.planOfBibleReading.widgets.StyledTextView>
+
+    <LinearLayout
+        android:id="@+id/LLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvPlan"
+        android:orientation="horizontal" >
+
+        <com.example.planOfBibleReading.widgets.StyledButtonView
+            android:id="@+id/btnCreatePlan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="@string/addPlan"
+            android:textSize="12sp" >
+        </com.example.planOfBibleReading.widgets.StyledButtonView>
+
+        <com.example.planOfBibleReading.widgets.StyledButtonView
+            android:id="@+id/btnDeletePlan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="@string/deletePlan"
+            android:textSize="12sp"
+            android:visibility="gone" >
+        </com.example.planOfBibleReading.widgets.StyledButtonView>
+
+        <com.example.planOfBibleReading.widgets.StyledButtonView
+            android:id="@+id/btnCancelToMain"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="@string/CancelToMain"
+            android:textSize="12sp" >
+        </com.example.planOfBibleReading.widgets.StyledButtonView>
+    </LinearLayout>
+
+    <ExpandableListView
+        android:id="@+id/lvPlan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/LLayout"
+        android:scrollbars="vertical" >
+    </ExpandableListView>
+
+</RelativeLayout>

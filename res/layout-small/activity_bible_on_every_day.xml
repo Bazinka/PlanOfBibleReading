@@ -1,0 +1,94 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layoutMain"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp" >
+
+    <com.example.planOfBibleReading.widgets.StyledTitleView
+        android:id="@+id/tvBible"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="left|bottom"
+        android:text="@string/title_activity_bible"
+        android:textSize="20sp" />
+
+    <com.example.planOfBibleReading.widgets.StyledTitleView
+        android:id="@+id/tvOnEveryDay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/title_activity_on_every_day"
+        android:textSize="12sp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <com.example.planOfBibleReading.widgets.StyledTextView
+            android:id="@+id/textNotFoundPlans"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textSize="12sp" />
+
+        <ListView
+            android:id="@+id/lvPlanOnToday"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <com.example.planOfBibleReading.widgets.StyledButtonView
+            android:id="@+id/btnCreatePlan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:text="@string/addPlan"
+            android:textSize="12sp" />
+
+        <com.example.planOfBibleReading.widgets.StyledButtonView
+            android:id="@+id/btnOpenPlan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:text="@string/openPlanReading"
+            android:textSize="12sp" />
+
+        <com.example.planOfBibleReading.widgets.StyledButtonView
+            android:id="@+id/btnBible"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:text="@string/bible"
+            android:textSize="12sp" />
+
+        <com.example.planOfBibleReading.widgets.StyledButtonView
+            android:id="@+id/btnSettings"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:text="@string/Settings"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+</LinearLayout>

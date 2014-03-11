@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layoutMain"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp" >
+
+    <com.example.planOfBibleReading.widgets.StyledTitleView
+        android:id="@+id/tvTitleWindow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:text="@string/TitleWindowPlanOnPeriod"
+        android:textSize="14sp" />
+
+    <EditText
+        android:id="@+id/etPlanName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:hint="@string/planName"
+        android:inputType="textCapWords" >
+    </EditText>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:orientation="horizontal" >
+
+        <com.example.planOfBibleReading.widgets.StyledTitleView
+            android:id="@+id/tvTitleDateBegin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/DateBegin"
+            android:textSize="12sp" />
+
+        <com.example.planOfBibleReading.widgets.StyledTextView
+            android:id="@+id/etDateBeginReading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:textSize="12sp" />
+
+        <com.example.planOfBibleReading.widgets.StyledButtonView
+            android:id="@+id/btnChangeDateBegin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/changeDate"
+            android:textSize="12sp" >
+        </com.example.planOfBibleReading.widgets.StyledButtonView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:orientation="horizontal" >
+
+        <com.example.planOfBibleReading.widgets.StyledTitleView
+            android:id="@+id/tvTitleDateEnd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/DateEnd"
+            android:textSize="12sp" />
+
+        <com.example.planOfBibleReading.widgets.StyledTextView
+            android:id="@+id/etDateEndReading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:textSize="12sp" />
+
+        <com.example.planOfBibleReading.widgets.StyledButtonView
+            android:id="@+id/btnChangeDateEnd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/changeDate"
+            android:textSize="12sp" >
+        </com.example.planOfBibleReading.widgets.StyledButtonView>
+    </LinearLayout>
+
+    <com.example.planOfBibleReading.widgets.StyledButtonView
+        android:id="@+id/btnSelectBooks"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="@string/SelectBooks"
+        android:textSize="12sp" >
+    </com.example.planOfBibleReading.widgets.StyledButtonView>
+
+    <com.example.planOfBibleReading.widgets.StyledButtonView
+        android:id="@+id/btnSavePlan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:text="@string/savePlan"
+        android:textSize="12sp" >
+    </com.example.planOfBibleReading.widgets.StyledButtonView>
+
+</LinearLayout>
